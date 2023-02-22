@@ -6,4 +6,7 @@ fn main(){
 
     z += complex::C::new(10, 10);
     println!("{z}");
+    
+    z -= complex::C::new(10, 10);
+    println!("{z}");
 }
